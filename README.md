@@ -1,12 +1,12 @@
 # crawler
 
 # Install
-```
+```bash
 yarn install
 ```
 
 # Development Run
-```
+```bash
 yarn start
 ```
 
@@ -24,6 +24,6 @@ module.exports = async function(browser) {
 
 2. send a command to http server.
 
-```
+```bash
 curl -XPOST -d name=screenshot http://127.0.0.1:3000/task
 ```
