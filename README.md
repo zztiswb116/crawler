@@ -20,10 +20,9 @@ module.exports = async function(browser) {
 
   browser.close();
 }
-``
+```
 
 2. send a command to http server.
-
 ```bash
 curl -XPOST -d name=screenshot http://127.0.0.1:3000/task
 ```
